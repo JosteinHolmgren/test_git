@@ -1,0 +1,10 @@
+%test for git
+
+figure; hold on;
+
+for i = 1:10
+        
+        plot(i)
+        plot(log(i))
+        plot(exp(i))
+end
